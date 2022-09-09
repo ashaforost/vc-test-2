@@ -20,7 +20,7 @@
     "name" : "new device profile",
     "profileData" : {
       "alarms" : [ {
-        "alarmType" : "test",
+        "alarmType" : "test-vc chandged",
         "clearRule" : null,
         "createRules" : {
           "CRITICAL" : {

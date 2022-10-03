@@ -1159,7 +1159,7 @@
       },
       "entityAliases" : {
         "3e0f533a-0db1-3292-184f-06e73535061a" : {
-          "id" : "3e0f533a-0db1-3292-184f-06e73535061a",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "Gateways",
           "filter" : {
             "type" : "deviceType",
@@ -1169,7 +1169,7 @@
           }
         },
         "b2487e75-2fa4-f211-142c-434dfd50c70c" : {
-          "id" : "b2487e75-2fa4-f211-142c-434dfd50c70c",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "Current Gateway",
           "filter" : {
             "type" : "stateEntity",
@@ -1205,7 +1205,10 @@
     },
     "createdTime" : 1664800701983,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "4423daf0-4318-11ed-ab79-09f731fee662"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "4423daf0-4318-11ed-ab79-09f731fee662"

@@ -9,7 +9,10 @@
     "createdTime" : 1664800700756,
     "customerId" : null,
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "4368a140-4318-11ed-ab79-09f731fee662"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "4368a140-4318-11ed-ab79-09f731fee662"

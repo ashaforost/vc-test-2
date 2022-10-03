@@ -444,7 +444,7 @@
       },
       "entityAliases" : {
         "140f23dd-e3a0-ed98-6189-03c49d2d8018" : {
-          "id" : "140f23dd-e3a0-ed98-6189-03c49d2d8018",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "TbServiceQueues",
           "filter" : {
             "type" : "assetType",
@@ -490,7 +490,10 @@
     },
     "createdTime" : 1664800701928,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "441b7680-4318-11ed-ab79-09f731fee662"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "441b7680-4318-11ed-ab79-09f731fee662"

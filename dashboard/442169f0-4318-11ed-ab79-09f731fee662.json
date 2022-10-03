@@ -2062,7 +2062,7 @@
       },
       "entityAliases" : {
         "639da5b4-31f0-0151-6282-c37a3897b7e8" : {
-          "id" : "639da5b4-31f0-0151-6282-c37a3897b7e8",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "All devices",
           "filter" : {
             "type" : "entityType",
@@ -2071,7 +2071,7 @@
           }
         },
         "19f41c21-d9af-e666-8f50-e1748778f955" : {
-          "id" : "19f41c21-d9af-e666-8f50-e1748778f955",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "State entity",
           "filter" : {
             "type" : "stateEntity",
@@ -2348,7 +2348,10 @@
     },
     "createdTime" : 1664800701967,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "442169f0-4318-11ed-ab79-09f731fee662"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "442169f0-4318-11ed-ab79-09f731fee662"

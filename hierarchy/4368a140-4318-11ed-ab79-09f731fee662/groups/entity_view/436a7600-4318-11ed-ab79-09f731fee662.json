@@ -21,7 +21,10 @@
     },
     "createdTime" : 1664800700768,
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "436a7600-4318-11ed-ab79-09f731fee662"
+    },
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",

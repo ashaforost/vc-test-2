@@ -7,7 +7,10 @@
     "configuration" : null,
     "createdTime" : 1664801035346,
     "debugMode" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "0ad70320-4319-11ed-8d0a-7d84be6c4a2d"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "0af587a0-4319-11ed-8d0a-7d84be6c4a2d"
@@ -79,7 +82,7 @@
         "layoutY" : 649
       },
       "configuration" : {
-        "restEndpointUrlPattern" : "http://localhost:8080/api/plugins/telemetry/DEVICE/ba969900-35c3-11ed-b41b-056f1143ba95/values/timeseries?keys=value&startTs=0&endTs=1763606233000&limit=1&orderBy=DESC",
+        "restEndpointUrlPattern" : "http://localhost:8080/api/plugins/telemetry/DEVICE/42f82c30-4318-11ed-ab79-09f731fee662/values/timeseries?keys=value&startTs=0&endTs=1763606233000&limit=1&orderBy=DESC",
         "requestMethod" : "GET",
         "useSimpleClientHttpFactory" : false,
         "ignoreRequestBody" : false,

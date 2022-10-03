@@ -1100,7 +1100,7 @@
       },
       "entityAliases" : {
         "68a058e1-fdda-8482-715b-3ae4a488568e" : {
-          "id" : "68a058e1-fdda-8482-715b-3ae4a488568e",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "Thermostats",
           "filter" : {
             "type" : "deviceType",
@@ -1110,7 +1110,7 @@
           }
         },
         "12ae98c7-1ea2-52cf-64d5-763e9d993547" : {
-          "id" : "12ae98c7-1ea2-52cf-64d5-763e9d993547",
+          "id" : "42f82c30-4318-11ed-ab79-09f731fee662",
           "alias" : "Thermostat",
           "filter" : {
             "type" : "stateEntity",
@@ -1157,7 +1157,10 @@
     },
     "createdTime" : 1664800702021,
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "4429a750-4318-11ed-ab79-09f731fee662"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "4429a750-4318-11ed-ab79-09f731fee662"

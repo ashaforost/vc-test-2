@@ -7,7 +7,10 @@
     "configuration" : null,
     "createdTime" : 1664800700532,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "43467340-4318-11ed-ab79-09f731fee662"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "4347abc1-4318-11ed-ab79-09f731fee662"

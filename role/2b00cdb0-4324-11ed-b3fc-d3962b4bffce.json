@@ -1,0 +1,29 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "sd",
+    "permissions" : {
+      "VERSION_CONTROL" : [ "WRITE" ]
+    },
+    "tenantId" : null,
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1664805813771,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "2b00cdb0-4324-11ed-b3fc-d3962b4bffce"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

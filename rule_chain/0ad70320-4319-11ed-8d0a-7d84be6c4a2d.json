@@ -1,0 +1,268 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "createdTime" : 1664801035346,
+    "debugMode" : true,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "0af587a0-4319-11ed-8d0a-7d84be6c4a2d"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "0ad70320-4319-11ed-8d0a-7d84be6c4a2d"
+    },
+    "name" : "test Rest API request for specific ts",
+    "root" : false,
+    "tenantId" : null,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 6,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
+        "layoutX" : 338,
+        "layoutY" : 176
+      },
+      "configuration" : {
+        "persistAlarmRulesState" : false,
+        "fetchAlarmRulesStateOnStart" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af587a0-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "Device Profile Node",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 501,
+        "layoutY" : 649
+      },
+      "configuration" : {
+        "restEndpointUrlPattern" : "http://localhost:8080/api/plugins/telemetry/DEVICE/ba969900-35c3-11ed-b41b-056f1143ba95/values/timeseries?keys=value&startTs=0&endTs=1763606233000&limit=1&orderBy=DESC",
+        "requestMethod" : "GET",
+        "useSimpleClientHttpFactory" : false,
+        "ignoreRequestBody" : false,
+        "enableProxy" : false,
+        "useSystemProxyProperties" : false,
+        "proxyScheme" : "https",
+        "proxyHost" : null,
+        "proxyPort" : 0,
+        "proxyUser" : null,
+        "proxyPassword" : null,
+        "readTimeoutMs" : 0,
+        "maxParallelRequestsCount" : 0,
+        "headers" : {
+          "X-Authorization" : "Bearer ${token}",
+          "Content-Type" : "application/json"
+        },
+        "useRedisQueueForMsgPersistence" : false,
+        "trimQueue" : false,
+        "maxQueueSize" : 0,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af81fb0-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "test get value",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rest.TbRestApiCallNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 825,
+        "layoutY" : 625
+      },
+      "configuration" : {
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af86dd0-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "result",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 459,
+        "layoutY" : 359
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "id" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af8bbf0-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "get Id",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 219,
+        "layoutY" : 714
+      },
+      "configuration" : {
+        "jsScript" : "metadata.token = msg.token;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af8e300-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "Put token to metadata",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 124,
+        "layoutY" : 612
+      },
+      "configuration" : {
+        "restEndpointUrlPattern" : "http://localhost:8080/api/auth/login",
+        "requestMethod" : "POST",
+        "useSimpleClientHttpFactory" : false,
+        "ignoreRequestBody" : false,
+        "enableProxy" : false,
+        "useSystemProxyProperties" : false,
+        "proxyScheme" : "https",
+        "proxyHost" : "",
+        "proxyPort" : 0,
+        "proxyUser" : "",
+        "proxyPassword" : "",
+        "readTimeoutMs" : 0,
+        "maxParallelRequestsCount" : 0,
+        "headers" : {
+          "accept" : "application/json",
+          "Content-Type" : "application/json"
+        },
+        "useRedisQueueForMsgPersistence" : false,
+        "trimQueue" : true,
+        "maxQueueSize" : 0,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af93120-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "Get Bearer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rest.TbRestApiCallNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 343,
+        "layoutY" : 480
+      },
+      "configuration" : {
+        "jsScript" : "msg={\n  username: \"tenant@thingsboard.org\",\n password: \"tenant\"\n};\n\nreturn {msg: msg, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af97f40-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "test add rb to metadata",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 126,
+        "layoutY" : 351
+      },
+      "configuration" : {
+        "msgCount" : 1,
+        "periodInSeconds" : 2,
+        "jsScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "originatorId" : null,
+        "originatorType" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0af97f41-4319-11ed-8d0a-7d84be6c4a2d"
+      },
+      "name" : "sdc",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

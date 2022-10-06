@@ -1,0 +1,28 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "createdTime" : 1662109059639,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "4cc7b040-0ce6-11ed-8f22-c92781b28869"
+    },
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "4cc7b040-0ce6-11ed-8f22-c92781b28869"
+    },
+    "label" : null,
+    "name" : "Main_1db6ad34050b",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "TbServiceQueue"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

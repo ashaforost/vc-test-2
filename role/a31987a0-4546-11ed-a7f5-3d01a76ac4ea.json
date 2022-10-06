@@ -1,0 +1,43 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "customer roles",
+    "permissions" : {
+      "ALARM" : [ "READ" ],
+      "CUSTOMER" : [ "ALL" ],
+      "CUSTOMER_GROUP" : [ "ALL" ],
+      "DASHBOARD" : [ "READ", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "DASHBOARD_GROUP" : [ "READ", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "DEVICE" : [ "ALL" ],
+      "DEVICE_GROUP" : [ "ALL" ],
+      "PROFILE" : [ "ALL" ],
+      "DEVICE_PROFILE" : [ "READ" ],
+      "WIDGET_TYPE" : [ "READ" ],
+      "WIDGETS_BUNDLE" : [ "READ" ],
+      "USER" : [ "CHANGE_OWNER", "CREATE", "DELETE", "IMPERSONATE", "READ", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "GROUP_PERMISSION" : [ "ALL" ],
+      "ROLE" : [ "READ" ],
+      "USER_GROUP" : [ "ALL" ]
+    },
+    "tenantId" : null,
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1665040520474,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "a31987a0-4546-11ed-a7f5-3d01a76ac4ea"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

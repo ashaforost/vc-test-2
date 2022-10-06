@@ -1,0 +1,32 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "user permissions",
+    "permissions" : {
+      "USER_GROUP" : [ "READ", "CREATE" ],
+      "USER" : [ "READ", "WRITE" ],
+      "CUSTOMER_GROUP" : [ "CREATE", "READ" ],
+      "CUSTOMER" : [ "READ", "WRITE", "CREATE" ]
+    },
+    "tenantId" : null,
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1664277057855,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "0feaecf0-3e55-11ed-9c76-078a5fc12643"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

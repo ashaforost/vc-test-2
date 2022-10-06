@@ -1,0 +1,30 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "027acb30-29d8-11ed-a7b1-b1934a5ddea1"
+    },
+    "externalId" : null,
+    "name" : "group - all",
+    "permissions" : [ "ALL" ],
+    "tenantId" : null,
+    "type" : "GROUP",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1665040870901,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "73f87250-4547-11ed-a7f5-3d01a76ac4ea"
+    },
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "027acb30-29d8-11ed-a7b1-b1934a5ddea1"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

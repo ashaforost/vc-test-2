@@ -1,0 +1,39 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1664264865929,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "acf6a790-3e38-11ed-afb7-fb91b7bcd01a"
+    },
+    "label" : null,
+    "name" : "Ofiice",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "acf6a790-3e38-11ed-afb7-fb91b7bcd01a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "02d59560-29d8-11ed-a7b1-b1934a5ddea1"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

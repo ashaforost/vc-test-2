@@ -1,0 +1,2124 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "createdTime" : 1664978910877,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "30f0ba25-44b7-11ed-a7f5-3d01a76ac4ea"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "30eb14d0-44b7-11ed-a7f5-3d01a76ac4ea"
+    },
+    "name" : "PeakPlusSystem deviceProfile",
+    "root" : false,
+    "tenantId" : null,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 38,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 37,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 37,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 15,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 22,
+      "type" : "False"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 25,
+      "type" : "True"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 8,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 40,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 41,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 42,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 43,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 44,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 45,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 47,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 48,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 49,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 50,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 51,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 52,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 53,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 54,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 55,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 57,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 58,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 59,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 61,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 62,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 64,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 65,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 66,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 67,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 68,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 33,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 33,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 69,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 70,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 71,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 72,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 6,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 19,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 34,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 12,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 14,
+      "type" : "RPC Request from Device"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 18,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 29,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 36,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 73,
+      "type" : "Generate Report"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 74,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 75,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 10,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 23,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 31,
+      "type" : "True"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 20,
+      "type" : "True"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 26,
+      "type" : "False"
+    }, {
+      "fromIndex" : 20,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 20,
+      "toIndex" : 13,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 20,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 20,
+      "toIndex" : 17,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 5,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 2,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 24,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 76,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 77,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 78,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 79,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 22,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 22,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 13,
+      "type" : "False"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 32,
+      "type" : "True"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 13,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 28,
+      "toIndex" : 30,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 29,
+      "toIndex" : 7,
+      "type" : "True"
+    }, {
+      "fromIndex" : 29,
+      "toIndex" : 35,
+      "type" : "False"
+    }, {
+      "fromIndex" : 30,
+      "toIndex" : 9,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 80,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 32,
+      "toIndex" : 13,
+      "type" : "False"
+    }, {
+      "fromIndex" : 32,
+      "toIndex" : 27,
+      "type" : "True"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 21,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 81,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 82,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 36,
+      "toIndex" : 1,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 36,
+      "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 4,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 24,
+      "type" : "Failure"
+    } ],
+    "firstNodeIndex" : 11,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 495,
+        "layoutY" : 452
+      },
+      "configuration" : {
+        "jsScript" : "metadata.emailSubject = 'Received telemetry for PeakPlusSystem ' + metadata.deviceName;\nmetadata.emailBody = 'Message: ' + JSON.stringify(msg);\nmetadata.emailBody += 'Metadata: ' + JSON.stringify(metadata);\n\nmetadata.prFromEmail = 'notifications@precisionreality.com';\nmetadata.prNotificationEmails = 'jane@precisionreality.com';\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f044f0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Create email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1076,
+        "layoutY" : 913
+      },
+      "configuration" : {
+        "fromTemplate" : "notifications@precisionreality.com",
+        "toTemplate" : "jane_mccleary@designmillinc.com",
+        "ccTemplate" : null,
+        "bccTemplate" : null,
+        "subjectTemplate" : "RPC Request Failed",
+        "bodyTemplate" : "deviceType: ${deviceType}\ndeviceName: ${deviceName}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f06c00-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Email RPC request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message includes presence data (distance, motion) do the appropriate calculations to calculate present state and time.  This needs to be done before the data is pushed to the API.",
+        "layoutX" : 2098,
+        "layoutY" : 182
+      },
+      "configuration" : {
+        "jsScript" : "//TODO...these functions for minutes aren't working right, I believe due to time zone issues - jane 5/30/2019\r\nfunction minutesOfDay(d) {\r\n    return d.getUTCMinutes() + (d.getUTCHours() * 60);\r\n}\r\n\r\nfunction getMinutesOfDayFromTimeString(timestring, ts) {\r\n    timestring = timestring || \"\";\r\n    //var splitString = timestring.split(':');\r\n    var dateToUse = new Date(parseInt(ts));\r\n    var idx = timestring.indexOf(':');\r\n    var returnValue;\r\n    \r\n    if (idx != -1 && dateToUse) {\r\n        var hours = parseInt(timestring.substring(0, idx));\r\n        var minutes = parseInt(timestring.substring(idx + 1));\r\n        if (!isNaN(hours) && !isNaN(minutes)) {\r\n            dateToUse.setHours(hours);\r\n            dateToUse.setMinutes(minutes);\r\n            \r\n            returnValue = minutesOfDay(dateToUse);\r\n        }\r\n    }\r\n    \r\n    return returnValue;\r\n}\r\n\r\ntry {\r\n\r\n\tif (typeof msg.distance !== 'undefined' || typeof msg.motion !== 'undefined') {\r\n\t\t//for distance, presentMin_threshold and presentMax_threshold are used to compute presence and presentTime\r\n\t\t//for distance, add metadata records if state changed (presentDetected, presentNotDetected)\r\n\t\t//for distance, if there are time thresholds for presence (presentTimeMin_threshold and presentTimeMax_threshold), add metadata records if new presence and out of the range\r\n\t\t//for motion (PIR sensor), add metadata records if state changed (presentDetected, presentNoDetected)\r\n\t\t//data array is in descending order (newest to oldest)\r\n\r\n\t\tvar lastReading, parsedMin, parsedMax, timeToUse;\r\n\t\tvar distanceArray = typeof metadata.distance !== 'undefined' ? JSON.parse(metadata.distance) : [];\r\n\t\tvar motionArray = typeof metadata.motion !== 'undefined' ? JSON.parse(metadata.motion) : [];\r\n\r\n        //we save the data before it gets to this point we need to look to the 2nd reading rather than the last one\r\n\t\tif (typeof msg.distance !== 'undefined' && distanceArray.length > 1) {\r\n\t\t\tlastReading = distanceArray[1];\r\n\t\t} else if (typeof msg.motion !== 'undefined' && motionArray.length > 1) {\r\n\t\t\tlastReading = motionArray[1];\r\n\t\t}\r\n\r\n        metadata.lastReadingValue = lastReading ? lastReading.value : '';\r\n        metadata.lastReadingTimestamp = lastReading ? lastReading.ts : '';\r\n        \r\n\t\tif (typeof metadata.shared_presentMin_threshold !== 'undefined' \r\n\t\t&& typeof metadata.shared_presentMax_threshold !== 'undefined') {\r\n\t\t\tparsedMin = parseFloat(metadata.shared_presentMin_threshold.replace(/['\\\\\"]+/g, \" \"));\r\n\t\t\tparsedMax = parseFloat(metadata.shared_presentMax_threshold.replace(/['\\\\\"]+/g, \" \"));\r\n\t\t}\r\n\r\n\t\t//this is for distance sensors\r\n\t\tif (typeof msg.distance !== 'undefined' && (typeof parsedMin !== 'undefined' && !isNaN(parsedMin) && typeof parsedMax !== 'undefined' && !isNaN(parsedMax))) {\r\n\t\t\tif (typeof lastReading !== 'undefined') {\r\n\t\t\t   if (lastReading.value >= parsedMin && lastReading.value <= parsedMax) {\r\n\t\t\t\t\tmetadata.wasPresent = true;\r\n\t\t\t\t} else {\r\n\t\t\t\t\tmetadata.wasPresent = false;\r\n\t\t\t\t} \r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tif (msg.distance >= parsedMin && msg.distance <= parsedMax) {\r\n\t\t\t\tmsg.present = 1;\r\n\t\t\t\t\r\n\t\t\t\t//if the latest record was not present, add presentDetectedAt timestamp to the metadata\r\n\t\t\t\tif (!metadata.wasPresent) {\r\n\t\t\t\t\tmetadata.presenceDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\tmsg.presenceDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\r\n\t\t\t\t\t//if there are time thresholds and this timestamp is not in them, add presentDetectedTooEarly or presentDetectedTooLate to the metadata\r\n\t\t\t\t\t//TODO..fix, not working due to time zones I think - jane 5/30/2019\r\n\t\t\t\t\tmetadata.thisMinutes = minutesOfDay(new Date(parseInt(metadata.ts)));\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (typeof metadata.shared_presentTimeMin_threshold !== 'undefined') {\r\n\t\t\t\t\t\tmetadata.minMinutes = getMinutesOfDayFromTimeString(metadata.shared_presentTimeMin_threshold, metadata.ts);\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (metadata.thisMinutes < metadata.minMinutes) {\r\n\t\t\t\t\t\t\tmetadata.presenceDetectedTooEarlyAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (typeof metadata.shared_presentTimeMax_threshold !== 'undefined') {\r\n\t\t\t\t\t\tmetadata.maxMinutes = getMinutesOfDayFromTimeString(metadata.shared_presentTimeMax_threshold, metadata.ts);\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (metadata.thisMinutes < metadata.maxMinutes) {\r\n\t\t\t\t\t\t\tmetadata.presenceDetectedTooLateAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t} else {\r\n\t\t\t\tmsg.present = 0;\r\n\t\t\t\t\r\n\t\t\t\t//if the latest record was also not present, return 0 \r\n\t\t\t\tif (!metadata.wasPresent) {\r\n\t\t\t\t\tmsg.presenceDuration = 0;\r\n\t\t\t\t} else {\r\n\t\t\t\t\t//since the latest record was present, add presentNotDetectedAt\r\n\t\t\t\t\tmetadata.presenceNotDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\tmsg.presenceNotDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\r\n\t\t\t\t\tvar lastIdxPresent = -1;\r\n\t\t\t\t\tvar idxNotPresent = -1;\r\n\t\t\t\t\t\r\n\t\t\t\t\tfor (var x = 2; x < distanceArray.length; x++) {\r\n\t\t\t\t\t    //reports every so many minutes so can be multiple present readings.  Vehicles can come and go in this time and we won't know it.  Present / not present can be off by up the twice the amount of minutes reporting (each side).\r\n\t\t\t\t\t\tvar thisDistance = distanceArray[x].value;\r\n\t\t\t\t\t\tvar thisWasPresent = thisDistance >= parsedMin && thisDistance <= parsedMax ? true: false;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (!thisWasPresent) {\r\n\t\t\t\t\t\t    lastIdxPresent = x - 1;\r\n\t\t\t\t\t\t    break;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t}//loop thru distance array\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (lastIdxPresent != -1) {\r\n\t\t\t\t\t\t\t//consider open from this reported close time to the earliest open time before the prior close\r\n\t\t\t\t\t\t\ttimeToUse = parseInt(distanceArray[lastIdxPresent].ts);\r\n\t\t\t\t\t\t\tmsg.presenceDuration = parseInt(Math.abs(parseInt(metadata.ts) - timeToUse));\r\n\t\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t} else if (typeof msg.motion !== 'undefined') {\r\n\t\t\t//0 is not present, 255 is present\r\n\t\t\tif (typeof lastReading !== 'undefined') {\r\n\t\t\t   if (parseFloat(lastReading.value.toString().replace(/['\\\\\"]+/g, \" \")) == 255) {\r\n\t\t\t\t\tmetadata.wasPresent = true;\r\n\t\t\t\t} else {\r\n\t\t\t\t\tmetadata.wasPresent = false;\r\n\t\t\t\t} \r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tif (msg.motion === 255) {\r\n\t\t\t\tmsg.present = 1;\r\n\t\t\t\t\r\n\t\t\t\t//if the latest record was not present, add presentDetectedAt timestamp to the metadata\r\n\t\t\t\tif (!metadata.wasPresent) {\r\n\t\t\t\t\tmetadata.presenceDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\tmsg.presenceDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\r\n\t\t\t\t\t//if there are time thresholds and this timestamp is not in them, add presentDetectedTooEarly or presentDetectedTooLate to the metadata\r\n\t\t\t\t\t//TODO..fix, not working due to time zones I think - jane 5/30/2019\r\n\t\t\t\t\tmetadata.thisMinutes = minutesOfDay(new Date(parseInt(metadata.ts)));\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (typeof metadata.shared_presentTimeMin_threshold !== 'undefined') {\r\n\t\t\t\t\t\tmetadata.minMinutes = getMinutesOfDayFromTimeString(metadata.shared_presentTimeMin_threshold, metadata.ts);\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (metadata.thisMinutes < metadata.minMinutes) {\r\n\t\t\t\t\t\t\tmetadata.presenceDetectedTooEarlyAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (typeof metadata.shared_presentTimeMax_threshold !== 'undefined') {\r\n\t\t\t\t\t\tmetadata.maxMinutes = getMinutesOfDayFromTimeString(metadata.shared_presentTimeMax_threshold, metadata.ts);\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (metadata.thisMinutes < metadata.maxMinutes) {\r\n\t\t\t\t\t\t\tmetadata.presenceDetectedTooLateAt = parseInt(metadata.ts);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t} else {\r\n\t\t\t\tmsg.present = 0;\r\n\t\t\t\t\r\n\t\t\t\t//if the latest record was also not present, return 0 \r\n\t\t\t\tif (!metadata.wasPresent) {\r\n\t\t\t\t\tmsg.presenceDuration = 0;\r\n\t\t\t\t} else {\r\n\t\t\t\t\t//since the latest record was present, add presentNotDetectedAt\r\n\t\t\t\t\tmetadata.presenceNotDetectedAt = parseInt(metadata.ts);\r\n\t\t\t\t\tmsg.presenceNotDetectedAt = parseInt(metadata.ts)\r\n\t\t\t\t\t\r\n\t\t\t\t\tvar lastIdxPresent = -1;\r\n\t\t\t\t\tvar idxNotPresent = -1;\r\n\t\t\t\t\t\r\n\t\t\t\t\tfor (var x = 2; x < motionArray.length; x++) {\r\n\t\t\t\t\t    //reports every so many minutes so can be multiple present readings.  Vehicles can come and go in this time and we won't know it.  Present / not present can be off by up the twice the amount of minutes reporting (each side).\r\n\t\t\t\t\t\tvar thisMotion = parseFloat(motionArray[x].value.toString().replace(/['\\\\\"]+/g, \" \"));\r\n\t\t\t\t\t\tvar thisWasPresent = thisMotion === 255 ? true: false;\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\tif (!thisWasPresent) {\r\n\t\t\t\t\t\t    lastIdxPresent = x - 1;\r\n\t\t\t\t\t\t    break;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t}//loop thru motion array\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\tif (lastIdxPresent != -1) {\r\n\t\t\t\t\t\t\t//consider open from this reported close time to the earliest open time before the prior close\r\n\t\t\t\t\t\t\ttimeToUse = parseInt(motionArray[lastIdxPresent].ts);\r\n\t\t\t\t\t\t\tmsg.presenceDuration = parseInt(Math.abs(parseInt(metadata.ts) - timeToUse));\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\r\n\r\n        delete metadata.present;\r\n\t\tdelete metadata.distance;\r\n\t}\r\n\t\r\n\treturn {msg: msg, metadata: metadata, msgType: msgType};\r\n\t\r\n} catch (ex) {\r\n\r\n\tmetadata.presenceTransformError = 'Error transforming presence, distance or motion: ' + ex.message;\r\n    return {msg: msg, metadata: metadata, msgType: msgType};\r\n}\r\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f06c01-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform Presence Data",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message includes open state type data (externalInput, reed, dockleveler, doorState, dwState, roofHatch, TamperState, tamperOpen) do the appropriate calculations to calculate open state and duration.  This needs to be done before the data is pushed to the API.",
+        "layoutX" : 2063,
+        "layoutY" : 307
+      },
+      "configuration" : {
+        "jsScript" : "try {\r\n\r\n    if (typeof msg.externalInput !== 'undefined' ||\r\n        typeof msg.reed !== 'undefined' ||\r\n        typeof msg.dockleveler !== 'undefined' ||\r\n        typeof msg.doorState !== 'undefined' ||\r\n        typeof msg.dwState !== 'undefined' || \r\n        typeof msg.roofHatch !== 'undefined' || \r\n        typeof msg.TamperState !== 'undefined' ||\r\n        typeof msg.tamperOpen !== 'undefined') {\r\n\r\n        //for externalInput, 0 is closed and 255 is open\r\n        //for reed, 0 is closed and 1 is open\r\n        //for dockleveler, 1 is closed and 0 is open \r\n        //for doorState, 0 is closed and 1 is open  (changed 8/4/20 based on data)\r\n        //for dwState, 0 is closed and 1 is open\r\n        //for roofHatch, 0 is closed and 1 is open\r\n        //for TamperState, 1 is closed and 0 is open\r\n        //for tamperOpen, 1 is open and 0 is closed\r\n        //data array is in descending order (newest to oldest)\r\n\r\n\r\n        var lastReading;\r\n\r\n        var externalInputArray = typeof metadata.externalInput !==\r\n            'undefined' ? JSON.parse(metadata.externalInput) :\r\n            [];\r\n        \r\n        var reedArray = typeof metadata.reed !==\r\n            'undefined' ? JSON.parse(metadata.reed) : [];\r\n\r\n        var docklevelerArray = typeof metadata.dockleveler !==\r\n            'undefined' ? JSON.parse(metadata.dockleveler) :\r\n            [];\r\n\r\n        var doorStateArray = typeof metadata.doorState !==\r\n            'undefined' ? JSON.parse(metadata.doorState) : [];\r\n            \r\n        var dwStateArray = typeof metadata.dwState !==\r\n            'undefined' ? JSON.parse(metadata.dwState) : [];\r\n\r\n        var roofHatchArray = typeof metadata.roofHatch !==\r\n            'undefined' ? JSON.parse(metadata.roofHatch) : [];\r\n            \r\n        var TamperStateArray = typeof metadata.TamperState !==\r\n            'undefined' ? JSON.parse(metadata.TamperState) : [];\r\n            \r\n        var tamperOpenArray = typeof metadata.tamperOpen !==\r\n            'undefined' ? JSON.parse(metadata.tamperOpen) : [];\r\n\r\n        //we save the data before it gets to this point we need to look to the reading before than the last one\r\n        if (externalInputArray.length > 1) {\r\n            lastReading = externalInputArray[1];\r\n        } else if (reedArray.length > 1) {\r\n            lastReading = reedArray[1];\r\n        } else if (docklevelerArray.length > 1) {\r\n            lastReading = docklevelerArray[1];\r\n        } else if (doorStateArray.length > 0) {\r\n            lastReading = doorStateArray[1];\r\n        } else if (dwStateArray.length > 0) {\r\n            lastReading = dwStateArray[1];\r\n        } else if (roofHatchArray.length > 1) {\r\n            lastReading = roofHatchArray[1];\r\n        } else if (TamperStateArray.length > 1) {\r\n            lastReading = TamperStateArray[1];\r\n        } else if (tamperOpenArray.length > 1) {\r\n            lastReading = tamperOpenArray[1];\r\n        }\r\n\r\n        metadata.lastReadingValue = lastReading.value;\r\n        metadata.lastReadingTimestamp = lastReading.ts;\r\n\r\n        if (typeof msg.externalInput !== 'undefined') {\r\n            if (msg.externalInput === 0) {\r\n                if (externalInputArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n\r\n                        for (var x = 2; x < externalInputArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (externalInputArray[x].value === 0) {\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        externalInputArray[\r\n                                            x - 1].ts));\r\n                                break;\r\n                            }\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.externalInput;\r\n        }\r\n\r\n        if (typeof msg.reed !== 'undefined') {\r\n            if (msg.reed === 0) {\r\n                if (reedArray.length > 1) {\r\n\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < reedArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (reedArray[x].value === 0) {\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        reedArray[x - 1].ts\r\n                                    ));\r\n                                break;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            } else {\r\n                \r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n\r\n            }\r\n\r\n            delete metadata.reed;\r\n        }\r\n\r\n        if (typeof msg.dockleveler !== 'undefined') {\r\n            if (msg.dockleveler === 1) {\r\n                if (docklevelerArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 1) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < docklevelerArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (docklevelerArray[x].value === 1) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        docklevelerArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 1) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.dockleveler;\r\n        }\r\n\r\n        if (typeof msg.doorState !== 'undefined') {\r\n            if (msg.doorState === 0) {\r\n                if (doorStateArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < doorStateArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open duration\r\n                            if (doorStateArray[x].value === 0) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        doorStateArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.doorState;\r\n        }\r\n        \r\n        if (typeof msg.dwState !== 'undefined') {\r\n            if (msg.dwState === 0) {\r\n                if (dwStateArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < dwStateArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open duration\r\n                            if (dwStateArray[x].value === 0) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        dwStateArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.dwState;\r\n        }\r\n\r\n        if (typeof msg.roofHatch !== 'undefined') {\r\n            if (msg.roofHatch === 0) {\r\n                if (roofHatchArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < roofHatchArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (roofHatchArray[x].value === 0) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        roofHatchArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.roofHatch;\r\n        }\r\n        \r\n        \r\n        if (typeof msg.TamperState !== 'undefined') {\r\n            if (msg.TamperState === 1) {\r\n                if (TamperStateArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 1) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < TamperStateArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (TamperStateArray[x].value === 1) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        TamperStateArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 1) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.TamperState;\r\n        }\r\n        \r\n        if (typeof msg.tamperOpen !== 'undefined') {\r\n            if (msg.tamperOpen === 0) {\r\n                if (tamperOpenArray.length > 1) {\r\n                    //if the latest record was also closed, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.openDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < tamperOpenArray.length; x++) {\r\n                            //look for last closed and use the prior reading for the open time\r\n                            if (tamperOpenArray[x].value === 0) {\r\n\r\n                                msg.openDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        tamperOpenArray[\r\n                                            x - 1].ts));\r\n\r\n                                break;\r\n                            }\r\n\r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.openDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.openedAt = parseInt(metadata.ts);\r\n                    msg.openedAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            delete metadata.tamperOpenArray;\r\n        }\r\n    }\r\n\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n\r\n} catch (ex) {\r\n\r\n    metadata.openStateTransformError =\r\n        'Error transforming open state data: ' + ex.message;\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f06c02-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform Open State Data",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message is for a fuse cutout and it includes tilt state type data (ReportType) do the appropriate calculations to calculate tilt state and time.  This needs to be done before the data is pushed to the API.",
+        "layoutX" : 2011,
+        "layoutY" : 501
+      },
+      "configuration" : {
+        "jsScript" : "try {\r\n    if (metadata.deviceType == 'radiobridge-fusecutout-dmi-v1' && \r\n    typeof msg.ReportType !== 'undefined') {\r\n\r\n    /* ReportType values\r\n        0 = Periodic Report \r\n        1 = Transitioned toward vertical\r\n        2 = Transitioned away from vertical\r\n        3 = Report on change toward vertical\r\n        4 = Report on change away from vertical\r\n    */\r\n        //data array is in descending over (newest to oldest)\r\n\r\n        var parsed = parseFloat(msg.ReportType);\r\n        \r\n        if (isNaN(parsed)) {\r\n            parsed = 0;\r\n        }\r\n    \r\n        var lastReading;\r\n\r\n        var ReportTypeArray = typeof metadata.ReportType !==\r\n            'undefined' ? JSON.parse(metadata.ReportType) :\r\n            [];\r\n\r\n    //we save the data before it gets to this point we need to look at the 2nd reading rather than the last one\r\n        if (ReportTypeArray.length > 1) {\r\n            lastReading = ReportTypeArray[1];\r\n        } \r\n\r\n        metadata.lastReadingValue = lastReading ? lastReading.value : '';\r\n        metadata.lastReadingTimestamp = lastReading ? lastReading.ts : '';\r\n        \r\n        if (parsed == 1) {\r\n            //transitioning toward vertical\r\n             //if the latest record was going toward vertical, return 0\r\n                    if (lastReading.value === 1) {\r\n                        msg.tiltDuration = 0;\r\n                    } else {\r\n                        metadata.closedAt = parseInt(metadata.ts);\r\n                        msg.closedAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < ReportTypeArray.length; x++) {\r\n                           if (ReportTypeArray[x].value ===\r\n                                2) {\r\n                                msg.tiltDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        ReportTypeArray[\r\n                                            x].ts));\r\n                                break;\r\n                            } \r\n                        }\r\n                    \r\n                    }\r\n                    \r\n        } else if (parsed == 2) {\r\n            //transitioning away from vertical (tilting/opening)\r\n            msg.tiltDuration = 0;\r\n\r\n            if (lastReading.value != 2) {\r\n                metadata.openedAt = parseInt(metadata.ts);\r\n                msg.openedAt = parseInt(metadata.ts);\r\n            }\r\n        } \r\n        \r\n        delete metadata.ReportType;\r\n\r\n      \r\n    }\r\n\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n\r\n} catch (ex) {\r\n\r\n    metadata.tiltTransformError =\r\n        'Error transforming tilt state data: ' + ex.message;\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f09312-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform Tilt State Data",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the device has any of these message fields, need to get the past 24 hour or longer records",
+        "layoutX" : 1250,
+        "layoutY" : 398
+      },
+      "configuration" : {
+        "messageNames" : [ "C1.CAt", "C2.CAt", "C3.CAt", "C4.CAt", "C1.CLt", "C2.CLt", "C3.CLt", "C4.CLt", "S0.OAr", "S0.OAt", "S0.WDp" ],
+        "metadataNames" : [ ],
+        "checkAllKeys" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f09314-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Fields for devices need prior records",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbCheckMessageNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2402,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f09315-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1200,
+        "layoutY" : 103
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : null,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "telemetry" : false,
+        "attrMapping" : {
+          "prLocationId" : "prLocationId",
+          "prTwilioNotificationNumbers" : "prTwilioNotificationNumbers",
+          "prNotificationEmails" : "prNotificationEmails",
+          "entityType" : "entityType",
+          "prLocationName" : "prLocationName"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba21-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add Asset Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedAttributeNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add error source and level",
+        "layoutX" : 2527,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "jsScript" : "metadata.error = \"Error saving Thingsboard timeseries\";\nmetadata.errorLevel = \"error\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba22-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add error source",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add error source and level",
+        "layoutX" : 1723,
+        "layoutY" : 828
+      },
+      "configuration" : {
+        "jsScript" : "metadata.error = \"Error emailing RPC request success\";\nmetadata.errorLevel = \"error\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba23-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add error source",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the device is battery powered, compute the battery level based on the voltage.  Note:  For now, Brian says 2.6 and below is low battery so forcing in .30 batteryLevel which will flag it as low in the database.  Otherwise, setting it at .70 which will flag it as fine.",
+        "layoutX" : 1972,
+        "layoutY" : 746
+      },
+      "configuration" : {
+        "jsScript" : "if (typeof metadata.ss_isBatteryPowered !== 'undefined' && metadata.ss_isBatteryPowered.toString() === \"true\" && typeof msg.voltage !== 'undefined') {\n    if (msg.voltage <= 2.6) {\n        metadata.batteryLevel = 0.30;\n    } else {\n        metadata.batteryLevel = 0.70;\n    }\n}\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba24-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Compute Battery Level",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
+        "layoutX" : 48,
+        "layoutY" : 274
+      },
+      "configuration" : {
+        "persistAlarmRulesState" : false,
+        "fetchAlarmRulesStateOnStart" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba25-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Device Profile Node",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 958,
+        "layoutY" : 41
+      },
+      "configuration" : {
+        "scope" : "CLIENT_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0ba26-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Save Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 605,
+        "layoutY" : 308
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e130-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Message Type Switch",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1017,
+        "layoutY" : 465
+      },
+      "configuration" : {
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e131-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Log RPC from Device",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message includes water leak data (liquidAbsent, LiquidAbsent) do the appropriate calculations to calculate wet state and duration.  This needs to be done before the data is pushed to the API.",
+        "layoutX" : 1987,
+        "layoutY" : 615
+      },
+      "configuration" : {
+        "jsScript" : "try {\r\n\r\n    if (typeof msg.liquidAbsent !== 'undefined' ||\r\n        typeof msg.LiquidAbsent !== 'undefined') {\r\n            \r\n        //for both, 0 is wet and 1 is dry\r\n        //data array is in descending order (newest to oldest)\r\n\r\n\r\n        var lastReading;\r\n        var currentReading = typeof msg.liquidAbsent !== 'undefined' ? msg.liquidAbsent : msg.LiquidAbsent;\r\n\r\n        var liquidAbsentArray = typeof metadata.liquidAbsent !==\r\n            'undefined' ? JSON.parse(metadata.liquidAbsent) :\r\n            typeof metadata.LiquidAbsent !== 'undefined' ? JSON.parse(metadata.LiquidAbsent) : [];\r\n\r\n        //we save the data before it gets to this point we need to look to the reading before than the last one\r\n        if (liquidAbsentArray.length > 1) {\r\n            lastReading = liquidAbsentArray[1];\r\n        } \r\n\r\n        metadata.lastReadingValue = lastReading.value;\r\n        metadata.lastReadingTimestamp = lastReading.ts;\r\n        \r\n        if (currentReading === 1) {   //dry\r\n            //if the latest record was also dry, return 0;\r\n            if (lastReading === 1) {\r\n                msg.wetDuration = 0;\r\n            } else {\r\n                metadata.noWaterDetectedAt = parseInt(metadata.ts);\r\n                msg.noWaterDetectedAt = parseInt(metadata.ts);\r\n                \r\n               for (var x = 2; x < liquidAbsentArray.length; x++) {\r\n                    //look for last dry and use the prior reading for the wet time\r\n                    if (liquidAbsentArray[x].value === 1) {\r\n                        msg.wetDuration = parseInt(\r\n                            Math.abs(metadata.ts -\r\n                                liquidAbsentArray[\r\n                                    x - 1].ts));\r\n                        break;\r\n                    }\r\n                } //loop thru records from newest to oldest \r\n            }\r\n        } else {\r\n            msg.wetDuration = 0;\r\n            \r\n            if (lastReading.value === 1) {\r\n                metadata.waterDetectedAt = parseInt(metadata.ts);\r\n                msg.waterDetectedAt = parseInt(metadata.ts);\r\n            }\r\n            \r\n        }   //wet\r\n        \r\n        delete metadata.liquidAbsent;\r\n        delete metadata.LiquidAbsent;\r\n\r\n    }\r\n\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n\r\n} catch (ex) {\r\n\r\n    metadata.openStateTransformError =\r\n        'Error transforming water leak data: ' + ex.message;\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e132-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform Water Leak Data",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1400,
+        "layoutY" : 907
+      },
+      "configuration" : {
+        "useSystemSmtpSettings" : true,
+        "smtpHost" : "localhost",
+        "smtpPort" : 25,
+        "username" : null,
+        "password" : null,
+        "smtpProtocol" : "smtp",
+        "timeout" : 10000,
+        "enableTls" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e133-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Send SMTP Email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Returns true if there is message telemetry to save",
+        "layoutX" : 276,
+        "layoutY" : 489
+      },
+      "configuration" : {
+        "jsScript" : "var isEmpty = Object.keys(msg).length === 0 && msg.constructor === Object;\n\nreturn !isEmpty;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e134-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Check for telemetry",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1026,
+        "layoutY" : 577
+      },
+      "configuration" : {
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e135-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Log Other",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Immediately save all telemetry data before any type of processing to avoid data loss",
+        "layoutX" : 329,
+        "layoutY" : 259
+      },
+      "configuration" : {
+        "messageTypes" : [ "POST_TELEMETRY_REQUEST" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f0e136-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "SAVE ALL (Do not remove this!)",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 283,
+        "layoutY" : 370
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10840-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1175,
+        "layoutY" : 293
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : null,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        },
+        "telemetry" : false,
+        "attrMapping" : {
+          "prCustomerId" : "prCustomerId",
+          "prAPIUrl" : "prAPIUrl",
+          "prFromEmail" : "prFromEmail",
+          "prTwilioPhoneNumber" : "prTwilioPhoneNumber",
+          "prCustomerName" : "prCustomerName"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10841-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add Customer Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedAttributeNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message includes temperature data (heatIndex, temperature, temp, dewpoint,  dewpt,TempF, TempC, surfaceTempC, surfaceTempF, floorTemp, soilTemp, panel_temperature, windChill, airTempInstant, dewPointInstant) and it needs to be converted from Celsius to Fahrenheit or vice versa (based on tempInUnit and tempOutUnit attributes), do the conversion.  Save the original reading to tempIn regardless of whether or not a conversion is done.",
+        "layoutX" : 2135,
+        "layoutY" : 45
+      },
+      "configuration" : {
+        "jsScript" : "function precisionRound(number, precision, metadata) {\n    if (!isNaN(number) && !isNaN(precision)) {\n        var factor = Math.pow(10, precision);\n        return Math.round(number * factor) / factor;\n    } else {\n        metadata.tempTransformError = 'Error transforming temperature related data: temperature was not numeric';\n        return number;\n    }\n}\n\ntry {\n   //checkif temperature in message and type is celcius (C)\n    if (typeof msg.temperature !== 'undefined' ||\n        typeof msg.temp !== 'undefined' || \n        typeof msg.dewpoint !== 'undefined' || \n        typeof msg.dewpt !== 'undefined' ||\n        typeof msg.panel_temperature !== 'undefined' || \n        typeof msg.TempC !== 'undefined' || \n        typeof msg.TempF !== 'undefined' || \n        typeof msg.surfaceTempC !== 'undefined' ||\n        typeof msg.surfaceTempF !== 'undefined' || \n        typeof msg.floorTemp !== 'undefined' || \n        typeof msg.temperatureMCU !== 'undefined' ||\n        typeof msg.soilTemp !== 'undefined' ||\n        typeof msg.windChill !== 'undefined' ||\n        typeof msg.heatIndex !== 'undefined' ||\n        typeof msg.airTempInstant !== 'undefined' ||\n        typeof msg.dewPointInstant !== 'undefined') {\n        msg.tempIn = msg.TempF || msg.TempC || msg.surfaceTempF || msg.surfaceTempC || msg.panel_temperature || msg.temperature || msg.temp || msg.temperatureMCU || msg.floorTemp || msg.soilTemp || msg.windChill || msg.airTempInstant;\n        msg.dewpointIn = msg.dewpoint || msg.dewpt || msg.dewPointInstant;\n        msg.heatIndexIn = msg.heatIndex;\n        \n        if (typeof metadata.ss_tempInUnit !== 'undefined' && typeof metadata.ss_tempOutUnit !== 'undefined') {\n            msg.tempInUnit = metadata.ss_tempInUnit.replace(/['\"]+/g, '');\n            msg.tempOutUnit = metadata.ss_tempOutUnit.replace(/['\"]+/g, '');\n        \n            if (msg.tempInUnit.toString() === \"C\" && msg.tempOutUnit.toString() === \"F\") {\n                \n                if (typeof msg.panel_temperature !== 'undefined') {\n                    msg.PanelTempF = precisionRound((msg.panel_temperature * 9/5) + 32, 2, metadata);\n                }\n                \n                if (typeof msg.temperatureMCU !== 'undefined') {\n                    msg.MCUTempF = precisionRound((msg.temperatureMCU * 9/5) + 32, 2);\n                } \n                                \n                if (typeof msg.dewpoint !== 'undefined') {\n                    msg.DewPointF = precisionRound((msg.dewpoint * 9/5) + 32, 2, metadata);\n                }\n                \n                if (typeof msg.dewpt !== 'undefined') {\n                    msg.DewPointF = precisionRound((msg.dewpt * 9/5) + 32, 2, metadata);\n                }      \n                \n                if (typeof msg.dewPointInstant !== 'undefined') {\n                    msg.DewPointF = precisionRound((msg.dewPointInstant * 9/5) + 32, 2, metadata);\n                }      \n          \n                if (typeof msg.soilTemp !== 'undefined') {\n                    msg.SoilTempF = precisionRound((msg.soilTemp * 9/5) + 32, 2);\n                }\n                \n                if (typeof msg.windChill !== 'undefined') {\n                    msg.WindChillF = precisionRound((msg.windChill * 9/5) + 32, 2);\n                }\n                \n                if (typeof msg.heatIndex !== 'undefined') {\n                    msg.HeatIndexF = precisionRound((msg.heatIndex * 9/5) + 32, 2, metadata);\n                }\n                \n                if (typeof msg.temperature !== 'undefined') {\n                   msg.TempF = precisionRound((msg.temperature * 9/5) + 32, 2, metadata);\n                } else if (typeof msg.TempC !== 'undefined') {\n                    msg.TempF = precisionRound((msg.TempC * 9/5) + 32, 2);\n                } else if (typeof msg.surfaceTempC !== 'undefined') {\n                    msg.SurfaceTempF = precisionRound((msg.surfaceTempC * 9/5) + 32, 2);\n                } else if (typeof msg.floorTemp !== 'undefined') {\n                    msg.SurfaceTempF = precisionRound((msg.floorTemp * 9/5) + 32, 2);\n                } else if (typeof msg.airTempInstant !== 'undefined') {\n                    msg.TempF = precisionRound((msg.airTempInstant * 9/5) + 32, 2);\n                } else {\n                    msg.TempF = precisionRound((msg.temp * 9/5) + 32, 2);\n                }\n            } \n            else if (msg.tempInUnit.toString() === \"F\" && msg.tempOutUnit.toString() === \"C\") {\n                if (typeof msg.panel_temperature !== 'undefined') {\n                    msg.PanelTempC = precisionRound((msg.panel_temperature - 32) * 5/9, 2, metadata);\n                }\n                \n                if (typeof msg.temperatureMCU !== 'undefined') {\n                    msg.MCUTempC = precisionRound((msg.temperatureMCU - 32) * 5/9, 2, metadata);\n                } \n            \n                if (typeof msg.dewpoint !== 'undefined') {\n                    msg.DewPointC = precisionRound((msg.dewpoint - 32) * 5/9, 2, metadata);\n                }\n                \n                if (typeof msg.dewpt !== 'undefined') {\n                    msg.DewPointC = precisionRound((msg.dewpt - 32) * 5/9, 2, metadata);\n                }\n                \n                if (typeof msg.temperature !== 'undefined') {\n                    msg.TempC = precisionRound((msg.temperature - 32) * 5/9, 2, metadata);\n                } else if (typeof msg.TempF !== 'undefined') {\n                    msg.TempC = precisionRound((msg.TempF - 32) * 5/9, 2, metadata);\n                } else if (typeof msg.surfaceTempF !== 'undefined') {\n                    msg.SurfaceTempC = precisionRound((msg.surfaceTempF - 32) * 5/9, 2, metadata);\n                } else {\n                   msg.TempC = precisionRound((msg.temp - 32) * 5/9, 2, metadata);\n                }\n            \n            }  \n            else if (msg.tempInUnit.toString() === \"F\" && msg.tempOutUnit.toString() === \"F\") {\n                if (typeof msg.temperature !== 'undefined') {\n                       msg.TempF = msg.temperature;\n                } else if (typeof msg.temp !== 'undefined') {\n                   msg.TempF = msg.temp;\n                }\n                \n                if (typeof msg.dewpoint !== 'undefined') {\n                    msg.DewPointF = msg.dewpoint;\n                } else if (typeof msg.dewpt !== 'undefined') {\n                    msg.DewPointF = msg.dewpt;\n                }\n                \n            }\n            else if (msg.tempInUnit.toString() === \"C\" && msg.tempOutUnit.toString() === \"C\") {\n                if (typeof msg.temperature !== 'undefined') {\n                   msg.TempC = msg.temperature;\n                } else if (typeof msg.temp !== 'undefined') {\n                   msg.TempC = msg.temp;\n                }\n                \n                if (typeof msg.dewpoint !== 'undefined') {\n                    msg.DewPointC = msg.dewpoint;\n                } else if (typeof msg.dewpt !== 'undefined') {\n                    msg.DewPointC = msg.dewpt;\n                }\n            } \n        } else {\n            //device is set up to report in Celsius by default, push that through to celsius\n            if (typeof msg.panel_temperature !== 'undefined') {\n                msg.PanelTempC = msg.panel_temperature;\n            }\n            \n            //device is set up to report in Celsius by default, push that through to celsius\n            if (typeof msg.temperatureMCU !== 'undefined') {\n                msg.MCUTempC = msg.temperatureMCU;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.surfaceTempC !== 'undefined') {\n                msg.SurfaceTempC = msg.surfaceTempC;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.floorTemp !== 'undefined') {\n                msg.SurfaceTempC = msg.floorTemp;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.surfaceTempF !== 'undefined') {\n                msg.SurfaceTempF = msg.surfaceTempF;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.soilTemp !== 'undefined') {\n                msg.SoilTempC = msg.soilTemp;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.airTempInstant !== 'undefined') {\n                msg.TempC = msg.airTempInstant;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.windChill !== 'undefined') {\n                msg.WindChillC = msg.windChill;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.heatIndex !== 'undefined') {\n                msg.HeatIndexC = msg.heatIndex;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.dewpoint !== 'undefined') {\n                msg.DewPointC = msg.dewpoint;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.dewpt !== 'undefined') {\n                msg.DewPointC = msg.dewpt;\n            }\n            \n            //not converting, push to final data type\n            if (typeof msg.dewPointInstant !== 'undefined') {\n                msg.DewPointC = msg.dewPointInstant;\n            }\n        }\n    }\n    \n    return {msg: msg, metadata: metadata, msgType: msgType};\n} catch (ex) {\n    metadata.tempTransformError = 'Error transforming temp or dewpoint: ' + ex.message;\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10842-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform Temperature Units",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add error source and level",
+        "layoutX" : 1745,
+        "layoutY" : 906
+      },
+      "configuration" : {
+        "jsScript" : "metadata.error = \"Error emailing RPC request failure\";\nmetadata.errorLevel = \"error\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10843-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add error source",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add error source and level",
+        "layoutX" : 2313,
+        "layoutY" : 757
+      },
+      "configuration" : {
+        "jsScript" : "metadata.error = \"Error transforming data before subsequent rule chains\";\nmetadata.errorLevel = \"error\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10844-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add error source",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add in all records needed for devices which  need to look back over 24 hours",
+        "layoutX" : 1724,
+        "layoutY" : 393
+      },
+      "configuration" : {
+        "latestTsKeyNames" : [ "C1.CAt", "C2.CAt", "C3.CAt", "C4.CAt", "C1.CLt", "C2.CLt", "C3.CLt", "C4.CLt", "S0.OAr", "S0.OAt", "S0.WDp" ],
+        "aggregation" : "NONE",
+        "fetchMode" : "ALL",
+        "orderBy" : "DESC",
+        "limit" : 1000,
+        "useMetadataIntervalPatterns" : false,
+        "startInterval" : 24,
+        "startIntervalTimeUnit" : "HOURS",
+        "endInterval" : 1,
+        "endIntervalTimeUnit" : "MILLISECONDS",
+        "startIntervalPattern" : "",
+        "endIntervalPattern" : ""
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f10845-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Records last 24 hours",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 241,
+        "layoutY" : 87
+      },
+      "configuration" : {
+        "messageTypes" : [ "POST_ATTRIBUTES_REQUEST", "RPC_CALL_FROM_SERVER_TO_DEVICE" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f50-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Post attributes or RPC request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 681,
+        "layoutY" : 84
+      },
+      "configuration" : {
+        "entityGroupId" : null,
+        "entityGroupIsMessageOriginator" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f51-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Duplicate To Group Entities",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToGroupNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1105,
+        "layoutY" : 816
+      },
+      "configuration" : {
+        "fromTemplate" : "notifications@precisionreality.com",
+        "toTemplate" : "jane_mccleary@designmillinc.com",
+        "ccTemplate" : null,
+        "bccTemplate" : null,
+        "subjectTemplate" : "RPC Request Successfully",
+        "bodyTemplate" : "deviceType: ${deviceType}\ndeviceName: ${deviceName}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f52-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Email RPC request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Passes along the devices we are currently processing data for",
+        "layoutX" : 898,
+        "layoutY" : 214
+      },
+      "configuration" : {
+        "jsScript" : "var returnValue = false;\n\nvar deviceTypesToFullyProcess = ['PeakPlusSystem'];\n\nif (typeof metadata.deviceType !== 'undefined') {\n    var idx = deviceTypesToFullyProcess.indexOf(metadata.deviceType);\n    \n    if (idx != -1) {\n        returnValue = true;\n    }\n}\n\nreturn returnValue;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f53-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Filter Devices to Process",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1401,
+        "layoutY" : 820
+      },
+      "configuration" : {
+        "useSystemSmtpSettings" : true,
+        "smtpHost" : "localhost",
+        "smtpPort" : 25,
+        "username" : null,
+        "password" : null,
+        "smtpProtocol" : "smtp",
+        "timeout" : 10000,
+        "enableTls" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f54-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Send SMTP Email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 277,
+        "layoutY" : 593
+      },
+      "configuration" : {
+        "jsScript" : "metadata.emailSubject = 'Error saving initial Thingsboard telemetry for ' + metadata.deviceName;\nmetadata.emailBody = 'Message: ' + JSON.stringify(msg);\nmetadata.emailBody += 'Metadata: ' + JSON.stringify(metadata);\n\nmetadata.prFromEmail = 'notifications@precisionreality.com';\nmetadata.prNotificationEmails = 'softwareteam@precisionreality.com';\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f55-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Create email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 461,
+        "layoutY" : 16
+      },
+      "configuration" : {
+        "originatorTypes" : [ "ENTITY_GROUP" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f12f56-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Originator is entity group",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1213,
+        "layoutY" : 186
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : null,
+        "clientAttributeNames" : [ "nsCustomerId" ],
+        "sharedAttributeNames" : [ "prLocationWithinFacility", "tempDelta_magnitude", "tempDelta_prNotificationEmails", "tempDelta_prNotificationNumbers", "tempMax_threshold", "tempMin_threshold", "tempThreshold_prNotificationEmails", "tempThreshold_prNotificationNumbers", "dewpointDelta_magnitude", "dewpointDelta_prNotificationEmails", "dewpointDelta_prNotificationNumbers", "dewpointMax_threshold", "dewpointMin_threshold", "dewpointThreshold_prNotificationEmails", "dewpointThreshold_prNotificationNumbers", "moisture_prNotificationEmails", "moisture_prNotificationNumbers", "humidityDelta_magnitude", "humidityDelta_prNotificationEmails", "humidityDelta_prNotificationNumbers", "humidityMax_threshold", "humidityMin_threshold", "humidityThreshold_prNotificationEmails", "humidityThreshold_prNotificationNumbers", "lightState_prNotificationEmails", "lightState_prNotificationNumbers", "doorState_prNotificationEmails", "doorState_prNotificationNumbers", "xDelta_magnitude", "yDelta_magnitude", "zDelta_magnitude", "accelerometerDelta_prNotificationEmails", "accelerometerDelta_prNotificationNumbers", "presentState_prNotificationEmails", "presentState_prNotificationNumbers", "presentTimeMin_threshold", "presentTimeMax_threshold", "presentTimeThreshold_prNotificationEmails", "presentTimeThreshold_prNotificationNumbers", "tempDelta_sendAlerts", "tempThreshold_sendAlerts", "dewpointDelta_sendAlerts", "dewpointThreshold_sendAlerts", "moisture_sendAlerts", "humidityDelta_sendAlerts", "humidityThreshold_sendAlerts", "lightBright_sendAlerts", "lightDark_sendAlerts", "doorOpened_sendAlerts", "doorClosed_sendAlerts", "openDelta_sendAlerts", "openDelta_magnitude", "openDelta_prNotificationEmails", "openDelta_prNotificationNumbers", "accelerometerDelta_sendAlerts", "presentMin_threshold", "presentMax_threshold", "presentDetected_sendAlerts", "presentNotDetected_sendAlerts", "presentTime_sendAlerts", "battery_sendAlerts", "battery_prNotificationEmails", "battery_prNotificationNumbers", "offline_sendAlerts", "offline_prNotificationEmails", "offline_prNotificationNumbers", "panelTempDelta_magnitude", "panelTempDelta_prNotificationEmails", "panelTempDelta_prNotificationNumbers", "panelTempMax_threshold", "panelTempMin_threshold", "panelTempThreshold_prNotificationEmails", "panelTempThreshold_prNotificationNumbers", "angleDelta_prNotificationEmails", "angleDelta_prNotificationNumbers", "angleDelta_sendAlerts", "angleDelta_magnitude", "buttonAction_prNotificationEmails", "buttonAction_prNotificationNumbers", "buttonPressed_sendAlerts", "buttonReleased_sendAlerts", "buttonHeld_sendAlerts", "tiltState_prNotificationEmails", "tiltState_prNotificationNumbers", "tiltTowardVertical_sendAlerts", "tiltAwayFromVertical_sendAlerts", "tiltDelta_prNotificationEmails", "tiltDelta_prNotificationNumbers", "tiltDelta_sendAlerts", "tiltDelta_magnitude", "burnedOutLamp_sendAlerts", "burnedOutLamp_prNotificationEmails", "burnedOutLamp_prNotificationNumbers", "loadCurrent_normal", "lampOffWithLowAmbientLight_sendAlerts", "lampStateWithAmbientLight_prNotificationEmails", "lampStateWithAmbientLight_prNotificationNumbers", "ambientLightSensorDark_threshold", "levelThreshold_sendAlerts", "levelMinThreshold", "levelMaxThreshold", "levelDelta_sendAlerts", "levelDelta_magnitude", "levelThreshold_prNotificationEmails", "levelThreshold_prNotificationNumbers", "levelDelta_prNotificationNumbers", "levelDelta_prNotificationEmails", "accelerometerThreshold_sendAlerts", "xVibrationDelta_magnitude", "yVibrationDelta_magnitude", "zVibrationDelta_magnitude", "xRMSDelta_magnitude", "yRMSDelta_magnitude", "zRMSDelta_magnitude", "xMaxThreshold", "yMaxThreshold", "zMaxThreshold", "xMinThreshold", "yMinThreshold", "zMinThreshold", "xVibrationMaxThreshold", "yVibrationMaxThreshold", "zVibrationMaxThreshold", "xVibrationMinThreshold", "yVibrationMinThreshold", "zVibrationMinThreshold", "xRMSMaxThreshold", "yRMSMaxThreshold", "zRMSMaxThreshold", "xRMSMinThreshold", "yRMSMinThreshold", "zRMSMinThreshold", "soilMoistureDelta_magnitude", "soilMoistureDelta_prNotificationEmails", "soilMoistureDelta_prNotificationNumbers", "soilMoistureDelta_sendAlerts", "soilMoistureMax_threshold", "soilMoistureMin_threshold", "soilMoistureThreshold_prNotificationEmails", "soilMoistureThreshold_prNotificationNumbers", "soilTempDelta_magnitude", "soilTempDelta_prNotifcationEmails", "soilTempDelta_sendAlerts", "soilTempMax_threshold", "soilTempMin_threshold", "soilTempDelta_prNotificationNumbers", "soilTempThreshold_prNotificationEmails", "soilTempThreshild_prNotificationNumbers", "soilTempThreshold_sendAlerts", "LiquidPresence_prNotificationNumbers", "LiquidPresense_prNotificationEmails", "coordinateDelta_sendAlerts", "latDelta_magnitude", "longDelta_magnitude", "coordinateDelta_prNotificationNumbers", "coordinateDelta_prNotificationEmails", "speedDelta_sendAlerts", "speedThreshold_sendAlerts", "speedMin_threshold", "speedMax_threshold", "speedDelta_magnitude", "speedDelta_prNotificationEmails", "speedDelta_prNotificationNumbers", "speedThreshold_prNotificationNumbers", "altitudeDelta_sendAlerts", "altitudeThreshold_sendAlerts", "altitudeDelta_prNotificationNumbers", "altitudeDelta_prNotificationEmails", "altitudeThreshold_prNotificationNumbers", "altitudeThreshold_prNotificationEmails", "altitudeMax_threshold", "altitudeMin_threshold", "altitudeDelta_magnitude", "distanceDelta_sendAlerts", "distanceThreshold_sendAlerts", "distanceDelta_magnitude", "distanceDelta_prNotificationNumbers", "distanceDelta_prNotificationEmails", "distanceThreshold_prNotificationNumbers", "distanceThreshold_prNotificationEmails", "distanceMin_threshold", "distanceMax_threshold", "tempThreshold_warningPercentage", "mcuTempThreshold_sendAlerts", "mcuTempMin_threshold", "mcuTempMax_threshold", "mcuTempThreshold_prNotificationEmails", "mcuTempThreshold_prNotificationNumbers", "mcuTempDelta_sendAlerts", "mcuTempDelta_magnitude", "mcuTempDelta_prNotificationEmails", "mcuTempDelta_prNotificationNumbers", "impactEvent_sendAlerts", "impactEvent_prNotificationNumbers", "impactEvent_prNotificationEmails", "fanOn_sendAlerts", "fanOff_sendAlerts", "fanState_prNotificationNumbers", "fanState_prNotificationEmails", "truckHookState_prNotificationEmails", "truckHookState_prNotificationNumbers", "truckHookDocked_sendAlerts", "truckHookHooked_sendAlerts", "levelerState_prNotificationEmails", "levelerState_prNotificationNumbers", "levelerExtended_sendAlerts", "levelerDocked_sendAlerts", "heatIndexDelta_magnitude", "heatIndexDelta_prNotificationEmails", "heatIndexDelta_prNotificationNumbers", "heatIndexMax_threshold", "heatIndexMin_threshold", "heatIndexThreshold_prNotificationEmails", "heatIndexThreshold_prNotificationNumbers", "windChillDelta_magnitude", "windChillDelta_prNotificationEmails", "windChillDelta_prNotificationNumbers", "windChillMax_threshold", "windChillMin_threshold", "windChillThreshold_prNotificationEmails", "windChillThreshold_prNotificationNumbers" ],
+        "serverAttributeNames" : [ "prDeviceId", "prDeviceType", "tempInUnit", "tempOutUnit", "prSensorVendorId", "prSensorVendorTypeIds", "isBatteryPowered", "removed", "levelOutUnit", "lastInclination", "lastAzimuth", "lastxVibrationVelocity", "lastyVibrationVelocity", "lastzVibrationVelocity", "lastxAccelerationRMS", "lastyAccelerationRMS", "lastzAccelerationRMS", "lastxAccelerationPeak", "lastyAccelerationPeak", "lastzAccelerationPeak", "lastHeadingDeg", "lastLatitudeDeg", "lastLongitudeDeg", "lastSpeedKmph", "lastAltitude", "lastDistanceKm", "humidityPercent", "humidity", "rh", "dewpoint", "temperature", "temp", "tempInC", "angle", "soilTemp", "soilGwc", "distanceMM", "level", "PanelTempF", "PanelTempC", "SurfaceTempF", "SurfaceTempC", "x", "y", "z", "accelx", "accely", "accelz", "accelerometerX", "accelerometerY", "accelerometerZ", "energyConsumed", "lastReceived_kWh", "lastkWh", "lastDelivered_kWh", "lastMeterTimestamp", "TempC", "TempF", "elapsedTime", "distance", "lastDistanceMiles", "lastTimestamp", "MCUTempF", "MCUTempC", "prDisplayName", "liquidAbsent", "LiquidAbsent", "windChill", "heatIndex" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f15660-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add Originator Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Add error source and level",
+        "layoutX" : 1249,
+        "layoutY" : 21
+      },
+      "configuration" : {
+        "jsScript" : "metadata.error = \"Error saving attributes\";\nmetadata.errorLevel = \"error\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f15661-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Add error source",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 946,
+        "layoutY" : 353
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f15662-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 776,
+        "layoutY" : 822
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f15663-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "RPC Call Request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "If the message includes on state type data (lampState, fanState) do the appropriate calculations to calculate on/off state and time.  This needs to be done before the data is pushed to the API.",
+        "layoutX" : 2054,
+        "layoutY" : 415
+      },
+      "configuration" : {
+        "jsScript" : "try {\r\n\r\n    var lastReading;\r\n        \r\n    if (typeof msg.lampState !== 'undefined') {\r\n\r\n        //for lampState, 0 is off and 1 is on\r\n        //data array is in descending order (newest to oldest)\r\n\r\n        var lampStateArray = typeof metadata.lampState !==\r\n            'undefined' ? JSON.parse(metadata.lampState) :\r\n            [];\r\n\r\n      //we save the data before it gets to this point we need to look at the 2nd reading rather than the last one\r\n        if (lampStateArray.length > 1) {\r\n            lastReading = lampStateArray[1];\r\n        } \r\n\r\n        metadata.lastReadingValue = lastReading ? lastReading.value : '';\r\n        metadata.lastReadingTimestamp = lastReading ? lastReading.ts : '';\r\n\r\n        if (typeof msg.lampState !== 'undefined') {\r\n            if (msg.lampState === 0) {\r\n                if (lampStateArray.length > 1) {\r\n                    //if the latest record was also off, return 0\r\n                    if (lastReading.value === 0) {\r\n                        msg.onDuration = 0;\r\n                    } else {\r\n                        metadata.offAt = parseInt(metadata.ts);\r\n                        msg.offAt = parseInt(metadata.ts);\r\n\r\n                        for (var x = 2; x < lampStateArray.length; x++) {\r\n                            //look for last off and use the prior reading for the on duration\r\n                            if (lampStateArray[x].value ===\r\n                                0) {\r\n                                msg.onDuration = parseInt(\r\n                                    Math.abs(metadata.ts -\r\n                                        lampStateArray[\r\n                                            x - 1].ts));\r\n                                break;\r\n                            }\r\n                        \r\n                        } //loop thru records from newest to oldest \r\n                    }\r\n                }\r\n            } else {\r\n                msg.onDuration = 0;\r\n\r\n                if (lastReading.value === 0) {\r\n                    metadata.onAt = parseInt(metadata.ts);\r\n                    msg.onAt = parseInt(metadata.ts);\r\n                }\r\n            }\r\n\r\n            //delete metadata.lampState;\r\n        }\r\n    } else if (typeof msg.fanState !== 'undefined') {\r\n\r\n        //for fanState, 0 is off and 1 is on as of 2/5/2021\r\n        //data array is in descending order (newest to oldest)\r\n\r\n\r\n        var fanStateArray = typeof metadata.fanState !==\r\n            'undefined' ? JSON.parse(metadata.fanState) :\r\n            [];\r\n\r\n      //we save the data before it gets to this point we need to look at the 2nd reading rather than the last one\r\n        if (fanStateArray.length > 1) {\r\n            lastReading = fanStateArray[1];\r\n        } \r\n\r\n        metadata.lastReadingValue = lastReading ? lastReading.value : '';\r\n        metadata.lastReadingTimestamp = lastReading ? lastReading.ts : '';\r\n\r\n        if (msg.fanState === 0) {\r\n            if (fanStateArray.length > 1) {\r\n                //if the latest record was also off, return 0\r\n                if (lastReading.value === 0) {\r\n                    msg.onDuration = 0;\r\n                } else {\r\n                    metadata.offAt = parseInt(metadata.ts);\r\n                    msg.offAt = parseInt(metadata.ts);\r\n\r\n                    for (var x = 2; x < fanStateArray.length; x++) {\r\n                        //look for last off and use the prior reading for the on duration\r\n                        if (fanStateArray[x].value ===\r\n                            0) {\r\n                            msg.onDuration = parseInt(\r\n                                Math.abs(metadata.ts -\r\n                                    fanStateArray[\r\n                                        x - 1].ts));\r\n                            break;\r\n                        }\r\n                    \r\n                    } //loop thru records from newest to oldest \r\n                }\r\n            }\r\n        } else {\r\n            msg.onDuration = 0;\r\n\r\n            if (typeof lastReading !== 'undefined' && lastReading.value === 0) {\r\n                metadata.onAt = parseInt(metadata.ts);\r\n                msg.onAt = parseInt(metadata.ts);\r\n            }\r\n        }\r\n    }\r\n        \r\n\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n\r\n} catch (ex) {\r\n\r\n    metadata.lampOrFanStateTransformError =\r\n        'Error transforming lamp or fan state data: ' + ex.message;\r\n    return {\r\n        msg: msg,\r\n        metadata: metadata,\r\n        msgType: msgType\r\n    };\r\n}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f15664-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Transform On State Data",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 510,
+        "layoutY" : 550,
+        "ruleChainNodeId" : "rule-chain-node-76"
+      },
+      "configuration" : {
+        "ruleChainId" : "626f6a70-6240-11eb-9442-f34671089422"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f17d70-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2828,
+        "layoutY" : 745,
+        "ruleChainNodeId" : "rule-chain-node-39"
+      },
+      "configuration" : {
+        "ruleChainId" : "ac67aa00-c611-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f17d71-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2826,
+        "layoutY" : 675,
+        "ruleChainNodeId" : "rule-chain-node-40"
+      },
+      "configuration" : {
+        "ruleChainId" : "62c50b10-dbcd-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f17d72-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2992,
+        "layoutY" : 325,
+        "ruleChainNodeId" : "rule-chain-node-41"
+      },
+      "configuration" : {
+        "ruleChainId" : "4aeaf530-c610-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f17d73-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2798,
+        "layoutY" : 173,
+        "ruleChainNodeId" : "rule-chain-node-42"
+      },
+      "configuration" : {
+        "ruleChainId" : "3317ea90-5554-11e9-95d6-cf88716c0a47"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1a480-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2975,
+        "layoutY" : 139,
+        "ruleChainNodeId" : "rule-chain-node-43"
+      },
+      "configuration" : {
+        "ruleChainId" : "307b6130-c610-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1a481-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3001,
+        "layoutY" : 1039,
+        "ruleChainNodeId" : "rule-chain-node-44"
+      },
+      "configuration" : {
+        "ruleChainId" : "cc0e74a0-d9cb-11eb-80ed-c190ce6ced3e"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1a482-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2977,
+        "layoutY" : 201,
+        "ruleChainNodeId" : "rule-chain-node-45"
+      },
+      "configuration" : {
+        "ruleChainId" : "ef786ef0-8315-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1a483-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Calculates the temperature change and state for temperature sensors.  Creates alarms and send notifications if appropriate.",
+        "layoutX" : 2905,
+        "layoutY" : 599,
+        "ruleChainNodeId" : "rule-chain-node-46"
+      },
+      "configuration" : {
+        "ruleChainId" : "0f3b4e30-c611-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1a484-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 3000,
+        "layoutY" : 454,
+        "ruleChainNodeId" : "rule-chain-node-47"
+      },
+      "configuration" : {
+        "ruleChainId" : "b5d14a70-c610-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1cb90-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 3113,
+        "layoutY" : 867,
+        "ruleChainNodeId" : "rule-chain-node-48"
+      },
+      "configuration" : {
+        "ruleChainId" : "2fc54a60-59ba-11eb-8318-ff103971620a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1cb91-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2884,
+        "layoutY" : 821,
+        "ruleChainNodeId" : "rule-chain-node-49"
+      },
+      "configuration" : {
+        "ruleChainId" : "d371a190-23be-11eb-aff1-b1d6578dccab"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1cb92-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 3114,
+        "layoutY" : 697,
+        "ruleChainNodeId" : "rule-chain-node-50"
+      },
+      "configuration" : {
+        "ruleChainId" : "697bc6b0-c60f-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1cb93-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3089,
+        "layoutY" : 958,
+        "ruleChainNodeId" : "rule-chain-node-51"
+      },
+      "configuration" : {
+        "ruleChainId" : "1d96bcb0-9e12-11eb-9a4b-ffbe6b1d5fb1"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1cb94-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2837,
+        "layoutY" : 533,
+        "ruleChainNodeId" : "rule-chain-node-52"
+      },
+      "configuration" : {
+        "ruleChainId" : "813cc000-c610-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1f2a0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2826,
+        "layoutY" : 426,
+        "ruleChainNodeId" : "rule-chain-node-53"
+      },
+      "configuration" : {
+        "ruleChainId" : "e70e7710-c611-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1f2a1-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2823,
+        "layoutY" : 292,
+        "ruleChainNodeId" : "rule-chain-node-54"
+      },
+      "configuration" : {
+        "ruleChainId" : "542c9620-8319-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1f2a2-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2956,
+        "layoutY" : 0,
+        "ruleChainNodeId" : "rule-chain-node-55"
+      },
+      "configuration" : {
+        "ruleChainId" : "da1faee0-c60f-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1f2a3-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 3100,
+        "layoutY" : 788,
+        "ruleChainNodeId" : "rule-chain-node-56"
+      },
+      "configuration" : {
+        "ruleChainId" : "4166cdf0-3a3b-11eb-aff1-b1d6578dccab"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f1f2a4-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2996,
+        "layoutY" : 391,
+        "ruleChainNodeId" : "rule-chain-node-57"
+      },
+      "configuration" : {
+        "ruleChainId" : "f2e42af0-c60f-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2993,
+        "layoutY" : 266,
+        "ruleChainNodeId" : "rule-chain-node-58"
+      },
+      "configuration" : {
+        "ruleChainId" : "69a922d0-c610-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b1-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2790,
+        "layoutY" : 111,
+        "ruleChainNodeId" : "rule-chain-node-59"
+      },
+      "configuration" : {
+        "ruleChainId" : "23025d90-c612-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b2-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2777,
+        "layoutY" : 44,
+        "ruleChainNodeId" : "rule-chain-node-60"
+      },
+      "configuration" : {
+        "ruleChainId" : "55ab6690-c2ef-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b3-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2569,
+        "layoutY" : 29,
+        "ruleChainNodeId" : "rule-chain-node-61"
+      },
+      "configuration" : {
+        "ruleChainId" : "a27a4a00-4d05-11ea-ae3c-2ddc31a7f6e4"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b4-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2803,
+        "layoutY" : 895,
+        "ruleChainNodeId" : "rule-chain-node-62"
+      },
+      "configuration" : {
+        "ruleChainId" : "b8b78700-5554-11e9-95d6-cf88716c0a47"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f219b5-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Calculates the presence time and state for distance sensors.  Creates alarms and send notifications if appropriate.",
+        "layoutX" : 2836,
+        "layoutY" : 482,
+        "ruleChainNodeId" : "rule-chain-node-63"
+      },
+      "configuration" : {
+        "ruleChainId" : "630d4ca0-8302-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3187,
+        "layoutY" : 608,
+        "ruleChainNodeId" : "rule-chain-node-64"
+      },
+      "configuration" : {
+        "ruleChainId" : "cba40850-c611-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c1-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2814,
+        "layoutY" : 240,
+        "ruleChainNodeId" : "rule-chain-node-65"
+      },
+      "configuration" : {
+        "ruleChainId" : "09022d30-c612-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c2-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2959,
+        "layoutY" : 67,
+        "ruleChainNodeId" : "rule-chain-node-66"
+      },
+      "configuration" : {
+        "ruleChainId" : "9ccc5f70-c60f-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c3-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3190,
+        "layoutY" : 499,
+        "ruleChainNodeId" : "rule-chain-node-67"
+      },
+      "configuration" : {
+        "ruleChainId" : "567f2be0-c611-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c4-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3186,
+        "layoutY" : 365,
+        "ruleChainNodeId" : "rule-chain-node-68"
+      },
+      "configuration" : {
+        "ruleChainId" : "276deff0-c2ef-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c5-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f240c6-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d1-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d2-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 705,
+        "layoutY" : 1026,
+        "ruleChainNodeId" : "rule-chain-node-70"
+      },
+      "configuration" : {
+        "ruleChainId" : "98395a20-54b5-11e9-95d6-cf88716c0a47"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d3-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 751,
+        "layoutY" : 943,
+        "ruleChainNodeId" : "rule-chain-node-71"
+      },
+      "configuration" : {
+        "ruleChainId" : "d415f170-d8cb-11ea-ab2d-bb0c87fc509a"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d4-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Check if this is a new device and add it to table in Precision Reality database if so",
+        "layoutX" : 546,
+        "layoutY" : 1206,
+        "ruleChainNodeId" : "rule-chain-node-72"
+      },
+      "configuration" : {
+        "ruleChainId" : "3d6da530-067c-11ec-9354-6107ed80f882"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f267d5-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee0-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee1-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee2-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2588,
+        "layoutY" : 964,
+        "ruleChainNodeId" : "rule-chain-node-69"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee3-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 299,
+        "layoutY" : 708,
+        "ruleChainNodeId" : "rule-chain-node-73"
+      },
+      "configuration" : {
+        "ruleChainId" : "626f6a70-6240-11eb-9442-f34671089422"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee4-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1624,
+        "layoutY" : 17,
+        "ruleChainNodeId" : "rule-chain-node-74"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee5-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1624,
+        "layoutY" : 17,
+        "ruleChainNodeId" : "rule-chain-node-74"
+      },
+      "configuration" : {
+        "ruleChainId" : "8182b620-77f9-11e9-b168-e7cfafe81970"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30f28ee6-44b7-11ed-a7f5-3d01a76ac4ea"
+      },
+      "name" : "Rule Chain Input",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

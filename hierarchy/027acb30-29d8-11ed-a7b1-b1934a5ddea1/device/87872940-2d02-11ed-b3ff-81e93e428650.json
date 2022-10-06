@@ -1,0 +1,82 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "createdTime" : 1662372440532,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "027acb30-29d8-11ed-a7b1-b1934a5ddea1"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "314fd400-0ce6-11ed-8f22-c92781b28869"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "87872940-2d02-11ed-b3ff-81e93e428650"
+    },
+    "label" : "",
+    "name" : "dev 1",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "027acb30-29d8-11ed-a7b1-b1934a5ddea1"
+    },
+    "softwareId" : null,
+    "tenantId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "xxMxcH0eFGfoHOZ6fxzy",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : {
+      "test" : 1
+    },
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "02b5d860-29d8-11ed-a7b1-b1934a5ddea1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "87872940-2d02-11ed-b3ff-81e93e428650"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1662373045234,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1662373045234,
+      "longValue" : 1662373045234,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
